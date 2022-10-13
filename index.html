@@ -41,11 +41,11 @@
     <body><!---->
       <header><!--cabezera-->
         <div class="barra"><!--barra de navegacion-->
-            <a href="#home">Inicio/Home</a><!--hreef que mas adelante tendran una funcion-->
-            <a href="#productos">Productos y Servicios</a>
+            <a href="#descripcion">Inicio/Home</a><!--hreef que mas adelante tendran una funcion-->
+            <a href="#tabla">Productos y Servicios</a>
+            <a href="#contac">Contacto</a>
             <div class="dropdown">
                 <button class="botond">Quienes somos<!--clase botond-->
-                    <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content"><!--clase drowdown-content-->
                     <a href="#">Historia</a>
@@ -54,7 +54,11 @@
                       Benjamin Millanao</a>
                 </div>
             </div>
-            <a href="#contacto">Contacto</a>
+            <div id="reloj">
+              <p class="fecha"></p>
+              <p class="tiempo"></p>
+            </div>
+            <script src="reloj.js"></script>           
         </div>
       </header>
       <section id="descripcion">
@@ -65,7 +69,7 @@
           </pre>
           <hr>
       </section>
-      <section><!--formulario-->
+      <section id="contac"><!--formulario-->
         <div>
           <div class="img"><!--clase img-->
             <img src="./img/fomr1.jpg" width="150" height="150" alt="imagen de formulario 1" id="imagen"><!--imagen para la funcion del mouse-->
